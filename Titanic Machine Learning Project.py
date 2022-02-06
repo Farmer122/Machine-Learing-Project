@@ -10,8 +10,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
-titanic_data = pd.read_csv('/Users/jamallawal/Desktop/titanic/train.csv')
-titanic_test = pd.read_csv('/Users/jamallawal/Desktop/titanic/test copy 2.csv')
+titanic_data = pd.read_csv('/Users/name hidden/Desktop/titanic/train.csv')
+titanic_test = pd.read_csv('/Users/name hidden/Desktop/titanic/test copy 2.csv')
 combine = [titanic_data, titanic_test]
 
 print(titanic_data)
